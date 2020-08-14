@@ -1,0 +1,153 @@
+h1 {
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+
+#info {
+    padding: 2px;
+    display: block;
+    width: 97%;
+    height: 380px;
+    margin: 0px auto;
+    overflow-y: scroll;
+}
+
+#mini {
+    float: left;
+    height: 370px;
+    width: 390px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+}
+
+#mini div img {
+    padding-top: 8px;
+}
+
+#mini #miniImg {
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+#mini a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#mini h2 {
+    margin-top: 0px;
+    border-top: 3px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mini h3 {
+    margin-top: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid black;
+}
+
+#mini h4 {
+    display: block;
+    height: 35px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.Fire {
+    background-color: red;
+    color: White;
+}
+
+.Grass {
+    background-color: lawngreen;
+    color: White;
+}
+
+.Water {
+    background-color: darkblue;
+    color: White;
+}
+
+.Electric {
+    background-color: yellow;
+    color: black;
+}
+
+.Ground {
+    background-color: orange;
+    color: White;
+}
+
+.Rock {
+    background-color: rgb(58, 38, 38);
+    color: White;
+}
+
+.Steel {
+    background-color: silver;
+    color: black;
+}
+
+.Poison {
+    background-color: rgb(71, 9, 122);
+    color: White;
+}
+
+.Flying {
+    background-color: lightblue;
+    color: black;
+}
+
+.Fight {
+    background-color: brown;
+    color: White;
+}
+
+.Psychic {
+    background-color: rgb(190, 37, 165);
+    color: black;
+}
+
+.Dark {
+    background-color: black;
+    color: White;
+}
+
+.Ghost {
+    background-color: rgb(23, 23, 61);
+    color: White;
+}
+
+.Bug {
+    background-color: darkgreen;
+    color: White;
+}
+
+.Ice {
+    background-color: rgb(95, 149, 250);
+    color: black;
+}
+
+.Fairy {
+    background-color: rgb(225, 159, 231);
+    color: black;
+}
+
+.Dragon {
+    background-color: rgb(0, 0, 255);
+    color: White;
+}
+
+.Normal {
+    background-color: beige;
+    color: black;
+}

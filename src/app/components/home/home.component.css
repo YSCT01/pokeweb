@@ -1,0 +1,38 @@
+* {
+    margin-left: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p {
+    text-align: justify;
+    padding: 5px;
+    margin-right: 15px;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+#icons {
+    display: block;
+    width: 100%;
+    margin-top: 150px;
+}
+
+#icons a {
+    text-decoration: none;
+}
+
+#icons button {
+    height: auto;
+    background: none;
+    border: none;
+    color: black;
+    transition: 400ms;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#icons button:hover {
+    color: rgb(71, 0, 185);
+    transform: scale(1.5, 1.5);
+}

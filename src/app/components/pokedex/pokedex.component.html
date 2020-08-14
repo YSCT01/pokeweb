@@ -1,0 +1,18 @@
+<h1>Pokedex</h1>
+<div id="info">
+
+    <div id="mini" *ngFor="let pokemon of listPokemon">
+        <a [routerLink]="['/Pokedex/',pokemon.name]">
+            <div id="miniImg">
+                <img src="{{url + '/get-image/' + pokemon.image}}" height="180px">
+            </div>
+            <div id="miniContent">
+                <h2>{{pokemon.name}}</h2>
+                <h3>{{pokemon.dex}}</h3>
+                <h4 [ngClass]="colorDiv(pokemon.type1)">{{pokemon.type1}}</h4>
+                <h4 *ngIf="pokemon.type2" [ngClass]="colorDiv(pokemon.type2)">{{pokemon.type2}} </h4>
+            </div>
+        </a>
+    </div>
+
+</div>

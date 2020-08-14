@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#error {
+    text-align: center;
+    margin-top: 15%;
+}
+
+div button {
+    margin-top: 25px;
+    margin-left: 38%;
+    border: 1px black solid;
+    background-color: rgb(0, 0, 255);
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+}
+
+#return {
+    background-color: rgb(0, 0, 255);
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: White;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid blue;
+    margin-bottom: 35px;
+}
+
+div {
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#info_p {
+    margin-top: 50px;
+    float: right;
+    margin-right: 200px;
+    display: block;
+}
+
+#types {
+    display: flex;
+    margin-bottom: 10px;
+    width: 700px;
+}
+
+#image {
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#type1,
+#type2 {
+    display: block;
+    height: 35px;
+    width: 400px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 3px;
+}
+
+#description {
+    width: 700px;
+    margin-left: 40px;
+    text-align: justify;
+}
+
+#oneType {
+    width: 850px;
+    display: block;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 3px;
+}
+
+.Fire {
+    background-color: red;
+    color: White;
+}
+
+.Grass {
+    background-color: lawngreen;
+    color: White;
+}
+
+.Water {
+    background-color: darkblue;
+    color: White;
+}
+
+.Electric {
+    background-color: yellow;
+    color: black;
+}
+
+.Ground {
+    background-color: orange;
+    color: White;
+}
+
+.Rock {
+    background-color: rgb(58, 38, 38);
+    color: White;
+}
+
+.Steel {
+    background-color: silver;
+    color: black;
+}
+
+.Poison {
+    background-color: rgb(71, 9, 122);
+    color: White;
+}
+
+.Flying {
+    background-color: lightblue;
+    color: black;
+}
+
+.Fight {
+    background-color: brown;
+    color: White;
+}
+
+.Psychic {
+    background-color: rgb(190, 37, 165);
+    color: black;
+}
+
+.Dark {
+    background-color: black;
+    color: White;
+}
+
+.Ghost {
+    background-color: rgb(23, 23, 61);
+    color: White;
+}
+
+.Bug {
+    background-color: darkgreen;
+    color: White;
+}
+
+.Ice {
+    background-color: rgb(95, 149, 250);
+    color: black;
+}
+
+.Fairy {
+    background-color: rgb(225, 159, 231);
+    color: black;
+}
+
+.Dragon {
+    background-color: rgb(0, 0, 255);
+    color: White;
+}
+
+.Normal {
+    background-color: beige;
+    color: black;
+}

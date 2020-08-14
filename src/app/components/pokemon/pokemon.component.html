@@ -1,0 +1,32 @@
+<div *ngIf="!request">
+    <h1 id="error">Error, Pokemon not found</h1>
+    <button><a [routerLink]="['/Pokedex']" id="return">Pokedex</a></button>
+</div>
+
+<div *ngIf="request">
+    <h1>{{pokemon.name}}</h1>
+    <h2>{{pokemon.dex}}</h2>
+    <div id="info_p">
+        <div id="types">
+            <div id="type1" [ngClass]="colorDiv(pokemon.type1)" *ngIf="pokemon.type2 else oneType">
+                {{pokemon.type1}}
+            </div>
+            <div id="type2" *ngIf="pokemon.type2" [ngClass]="colorDiv(pokemon.type2)">
+                {{pokemon.type2}}
+            </div>
+        </div>
+        <div id="description">
+            <p>{{pokemon.description}}</p>
+        </div>
+    </div>
+    <div id="image">
+        <img src="{{url + '/get-image/' + pokemon.image}}">
+    </div>
+    <div id="clearfix"></div>
+</div>
+
+<ng-template #oneType>
+    <div id="oneType" [ngClass]="colorDiv(pokemon.type1)">
+        {{pokemon.type1}}
+    </div>
+</ng-template>
